@@ -1,6 +1,7 @@
 import { Counter } from "./components/Counter";
 import { Usuario } from "./components/Usuario";
 
+import { TimerPadre } from "./components/TimerPadre";
 
 function App() {
   return (
@@ -8,10 +9,14 @@ function App() {
       <h1> &lt;/ NOVA &gt; App </h1>
       <hr />
 
-      <Counter/>
+      <Counter />
       <br />
       <Usuario />
 
+      <h2>useEffect - useRef</h2>
+      <hr />
+
+      <TimerPadre />
     </>
   );
 }
